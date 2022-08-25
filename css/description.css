@@ -1,0 +1,271 @@
+table {
+    border-collapse: separate;
+}
+A {
+    color: #8968cd
+}
+
+A:hover {
+    color: red
+}
+
+TR:nth-child(odd) {
+    background-color: #e5e5e5
+}
+
+TR:nth-child(2n) {
+    background-color: #dcdcdc
+}
+
+#mainBlock {
+    height: 100%;
+    margin: 0 auto;
+    width: 1000px
+}
+
+#headBlock {
+    background-image: url(/images/logo.png?7d22aa8b7b4cc21bb73f0a0c072aa94c);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 0 0 5px;
+    width: 100%
+}
+
+#bodyBlock,
+#headBlock {
+    background-color: #eee;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 10px grey
+}
+
+#bodyBlock {
+    float: left;
+    /* width: 1000px */
+}
+
+#menuBlock {
+    background-color: #eee;
+    float: left;
+    font-weight: 700;
+    height: 100%;
+    margin: 0;
+    width: 200px
+}
+
+#menuBlock ul {
+    list-style-type: none;
+    padding: 0
+}
+
+#menuBlock ul li {
+    display: block;
+    margin: 5px 5px 5px 10px;
+    padding: 5px 10px
+}
+
+#menuBlock ul li a:hover {
+    color: #f4a460
+}
+
+#menuBlock p {
+    font-size: 10pt;
+    text-align: center
+}
+
+#textBlock {
+    background-color: #eee;
+    float: left;
+    margin: 15px 0;
+    min-height: 700px;
+    padding: 0 15px 45px;
+    width: 760px
+}
+
+#textBlock .form {
+    margin: 15px 30px
+}
+
+#textBlock .form INPUT[type=text] {
+    width: 450px
+}
+
+#textBlock .background {
+    background-color: #eee;
+    background-image: url(../logo_gray2.png);
+    background-position: 50% 50px;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-blend-mode: color-burn;
+    margin: 0;
+    min-height: 650px;
+    padding: 0;
+    width: 100%
+}
+
+#textBlock #description {
+    border-bottom: 2px solid orange;
+    font-size: 14pt;
+    font-weight: 700;
+    margin: 0 10px 50px;
+    padding: 5px 15px 10px
+}
+
+#textBlock #printDescription {
+    float: right;
+    font-weight: 400;
+    height: 100%
+}
+
+#textBlock #pageN {
+    border-top: 2px solid orange;
+    font-size: 10pt;
+    font-weight: 700;
+    margin: 25px 10px;
+    padding: 10px 10px 25px;
+    text-align: right
+}
+
+#textBlock #submitButton {
+    float: right
+}
+
+#textBlock p {
+    margin: 15px;
+    text-indent: 30px
+}
+
+#textBlock .title {
+    text-align: right;
+    width: 150px
+}
+
+#textBlock .bold {
+    font-weight: 700
+}
+
+#textBlock .textLeft {
+    text-align: left
+}
+
+#textBlock .text10pt {
+    font-size: 10pt
+}
+
+#textBlock .fontFamily {
+    font-family: Times New Roman
+}
+
+#textBlock .underline {
+    text-decoration: underline
+}
+
+#textBlock TABLE {
+    margin: 15px 15px 20px;
+    width: 95%
+}
+
+#textBlock TD,
+#textBlock TH {
+    padding: 5px 10px;
+    text-align: right;
+    vertical-align: top
+}
+
+#textBlock TABLE .invNTD {
+    vertical-align: bottom;
+    width: 25%
+}
+
+#textBlock TABLE .invN {
+    background-color: #8b8989;
+    color: #fdf5e6;
+    font-weight: 700;
+    padding: 3px 10px
+}
+
+#textBlock #bookInfo TR:first-child {
+    background-color: transparent
+}
+
+#footBlock {
+    background-color: #eee;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 10px grey;
+    float: left;
+    font-size: 8pt;
+    height: 40px;
+    margin: 5px 0 0;
+    text-align: right;
+    width: 100%
+}
+
+#footBlock #copyright {
+    margin: 15px
+}
+
+#imagePanel {
+    background-color: #dcdcdc;
+    float: left;
+    height: 400px;
+    margin: 0 15px 80px;
+    overflow-x: auto;
+    width: 540px
+}
+
+#imagePanel #imageDescription {
+    font-weight: 700;
+    text-align: center
+}
+
+#imagePanel IMG {
+    cursor: pointer;
+    display: block;
+    height: 360px;
+    margin: 10px auto
+}
+
+.imagesPanel {
+    background-color: #dcdcdc;
+    float: left;
+    height: 400px;
+    margin: 0 15px 25px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 150px
+}
+
+.imagesPanel IMG {
+    clear: left;
+    cursor: pointer;
+    display: block;
+    height: 100px;
+    margin: 10px auto
+}
+
+#imageInfo {
+    background-color: #dcdcdc;
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999
+}
+
+#imageInfo #closeButton,
+#imageInfo IMG {
+    display: block;
+    position: fixed
+}
+
+#imageInfo #closeButton {
+    background-color: #696969;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    right: 20px;
+    top: 15px
+}

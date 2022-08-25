@@ -124,13 +124,13 @@ svg {
     overflow: hidden;
     vertical-align: middle;
 }
-
+/* 
 table {
     border-collapse: collapse;
     width: 100% !important;
     border: none !important;
     border-color: transparent !important;
-}
+} */
 
 caption {
     padding-top: 0.75rem;
