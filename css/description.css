@@ -41,6 +41,7 @@ TR:nth-child(2n) {
 
 #bodyBlock {
     float: left;
+    margin-bottom: 10px;
     /* width: 1000px */
 }
 
@@ -103,6 +104,25 @@ TR:nth-child(2n) {
     width: 100%
 }
 
+ .maqsad_col {
+    background-color: #eee;
+    background-image: url(../logo.png);
+    background-position: 50% 50px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-blend-mode: overlay;
+    margin: auto;
+    min-height: 650px;
+    padding: 0;
+    max-width: 97%
+}
+
+.maqsad_row {
+    max-width: 85%;
+    margin: auto;
+    padding-top: 15px;
+    color: #380c90;
+}
 #textBlock #description {
     border-bottom: 2px solid orange;
     font-size: 14pt;
